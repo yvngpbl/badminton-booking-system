@@ -107,12 +107,12 @@ Open in browser:
 http://127.0.0.1:8000
 ```
 
-Demo Account
-Admin Account
+### Demo Account
+```Admin Account
 Email    : admin@gmail.com
 Password : admin123
 You can use this account to access the admin dashboard and manage bookings.
-
+```
 ---
 
 ## Project Structure
