@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class BookingModel extends Model
+{
+    protected $table = 'booking'; // Sesuai migration terbaru kamu
+    protected $fillable = [
+        'user_id', 'lapangan_id', 'raket_id', 'tanggal', 
+        'jam', 'durasi', 'total_harga', 'bukti', 'status', 'notes'
+    ];
+
+    public function user() { return $this->belongsTo(User::class, 'user_id'); }
+    public function lapangan() { return $this->belongsTo(LapanganModel::class, 'lapangan_id'); }
+    public function raket() { return $this->belongsTo(RaketModel::class, 'raket_id'); }
+}
