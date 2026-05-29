@@ -37,27 +37,6 @@ This application allows users to book badminton courts, rent badminton equipment
 * MySQL
 * Blade Template Engine
 
----
-
-## Screenshots
-
-### Login Page
-
-*Add screenshot here*
-
-### User Dashboard
-
-*Add screenshot here*
-
-### Booking Page
-
-*Add screenshot here*
-
-### Admin Dashboard
-
-*Add screenshot here*
-
----
 
 ## Installation
 
